@@ -1,0 +1,44 @@
+/*样式初始化*/
+*{outline: none;}
+html{overflow: hidden;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,q,blockquote,th,td{margin: 0;padding: 0;}
+body {text-align: left;font-family:Microsoft Yahei, Tahoma, Helvetica, Arial,sans-serif;font-size: 14px;
+    color:#000; font-weight:normal;}
+ul,ol{list-style: none}
+input, select, textarea,button {font-size: 12px;resize: none;outline: 0;  font-family:Microsoft Yahei, Tahoma, Helvetica, Arial,sans-serif;}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {border:none;padding:0;}
+input[type=text]::-ms-clear{display: none;}
+img {border: 0;vertical-align: middle; max-width: 100%;}
+table{border-collapse: collapse;border-spacing:0;table-layout: fixed;}
+table th{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+table td{word-wrap:break-word;}
+a{color:#434a54;outline:none;blr:expression(this.onFocus=this.blur()); text-decoration:none;}
+a:hover{color:#00b6ff;}
+.clearfix{zoom: 1;}
+.clearfix:after {content: " ";clear: both;display: block;height: 0;visibility: hidden;}
+.clearall{clear: both;}
+.page-content{margin:50px 0 0 50px;width: 450px;}
+
+.add-equip-line{position: relative;}
+.add-equip-line label {
+    float: left;
+    min-width: 85px;
+    line-height: 30px;
+    text-align: left;
+}
+.equip-sn-com{position: relative;float:left;padding:5px;width: 320px;border:1px solid rgb(237, 241, 245);background: #f7f9fc;cursor: text;overflow-x: hidden;}
+.sn-com{float:left;margin: 1px -13px 1px 0;width: 13px;height: 19px;}
+.sn-com input.sn-input{position: absolute;width: 20px;background: transparent;border: none;outline: none;overflow-x:visible;overflow-y:visible;}
+.equip-sn-com .sn-list{float: left;font-size: 13px;padding:0 2px;margin-right:6px;margin-bottom:6px;border-radius: 3px;background-color: #c5eeff;}
+.equip-sn-com .sn-list p{float:left;word-wrap: break-word;word-break: break-all;}
+.equip-sn-com .sn-list i{float:left;margin-top: 3px;width: 14px;height: 14px;margin-left: 3px;vertical-align: -3px;cursor: pointer;background: url("../img/close.png") no-repeat;}
+.equip-sn-com .sn-list.error{background: rgb(255, 228, 228);}
+.hand-error{float: left;margin-top: -20px;}
+.count-num{float: right;margin-right: 38px;line-height: 20px;font-size: 13px;}
+.input-error {
+    margin-left: 85px;
+    line-height: 20px;
+    height: 20px;
+    color: #ff0000;
+    font-size: 12px;
+}

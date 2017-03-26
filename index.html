@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>按空格键输入生成标签-支持ctrl+V以及右键粘贴</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/base.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="page-content">
+    <div class="add-equip-line sn-box clearfix">
+        <label><span class="type-lable">设备SN</span>：</label>
+        <div class="equip-sn-com clearfix">
+            <div class="sn-com" id="J_sn_com">
+                <input id="J_inp_sn" onkeyup="value=value.replace(/[^\d+a-zA-Z ]/g,'')" type="text" class="sn-input"/>
+            </div>
+        </div>
+        <span class="import icon equip-import"></span>
+        <p class="count-num clearall">已输入设备数 <span>0</span>/50</p>
+    </div>
+    <div class="hand-error input-error"></div>
+</div>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
