@@ -1,3 +1,13 @@
+/**
+ * Created with Visual Studio Code
+ * github: https://github.com/wztan/input-mutil/
+ * homepage:https://wztan.github.io/input-mutil/
+ * User: 谭维珍
+ * Date: 2017-03-29
+ * Time: 9:27:55
+ * Contact: https://github.com/wztan/input-mutil/issues
+ * Desc: 输入多项自动分隔,请及时关注github上的最新代码.
+ */
 $(function(){
     /*
      * 手动添加
